@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "quantum-circuit-simulator"
+version = "0.1.0"
+description = "A simple quantum circuit simulator using PennyLane."
+authors = mrmosij@gmail.com
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pennylane = "^0.18.0"  # Specify the version of PennyLane you want to use
+matplotlib = "^3.4.0"   # For visualization
+numpy = "^1.21.0"       # For numerical operations
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
